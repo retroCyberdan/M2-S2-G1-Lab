@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Lab3_9_MinoreTra2 : MonoBehaviour
+public class Lab3_9 : MonoBehaviour
 {
     //Creo 2 variabili pubbliche intere di nome "a" e "b"
     public int a = 1;
@@ -10,6 +10,19 @@ public class Lab3_9_MinoreTra2 : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
+    {
+        //richiamo la funzione creata
+        MinoreTra2();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+
+    //creo la funzione "MinoreTra2"per calcolare con una condizione quale è il numero più piccolo
+    void MinoreTra2()
     {
         if (a <= b)
         {
@@ -19,11 +32,5 @@ public class Lab3_9_MinoreTra2 : MonoBehaviour
         {
             Debug.Log("La variabile con il valore più basso è b!");
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

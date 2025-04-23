@@ -163,10 +163,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 786467267}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 33d4046a67eb7b34baf4b5c0baffed85, type: 3}
+  m_Script: {fileID: 11500000, guid: bbe9c48135cc2e042b1a9da357c62b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  partenza: 0
+  partenza: 12
 --- !u!1 &1502119692
 GameObject:
   m_ObjectHideFlags: 0

@@ -9,7 +9,7 @@ public class Lab3_5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if (n%2==0)
+        if (n%2 == 0)
         {
             Debug.Log("n è un numero PARI");
         }

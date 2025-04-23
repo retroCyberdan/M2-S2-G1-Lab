@@ -9,19 +9,19 @@ public class Lab3_4 : MonoBehaviour
     public int c = 6;
     public int d = 8;
 
+    private int somma = 0;
+    private int prodotto = 0;
+    private int media = 0;
+
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log("La Somma è:");
-        Debug.Log(a + b + c + d);
-        Debug.Log("Il Prodotto è:");
-        Debug.Log(a * b * c * d);
-        Debug.Log("La Media è:");
-        Debug.Log((a + b + c + d) / 4);
-
-        //string s1 = "La Somma è " + (a + b + c + d);
-        //string s2 = "Il Prodotto è " + (a * b * c * d);
-        //string s3 = "La Media è " + ((a + b + c + d) / 4);
+        somma = a + b + c + d;
+        prodotto = a * b * c * d;
+        media = (a + b + c + d) / 4;
+        Debug.Log("La Somma è: " + somma);
+        Debug.Log("Il Prodotto è: " + prodotto);
+        Debug.Log("La Media è: " + media);
     }
 
     // Update is called once per frame
